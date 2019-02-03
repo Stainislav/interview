@@ -1,3 +1,5 @@
+import sys
+
 # Список - это упорядоченная коллекция из нуля или более ссылок на объекты данных Python. 
 
 # Создание пустого списка.
@@ -35,7 +37,6 @@ item = my_list.pop()
 item = my_list.pop(0)  
 
 # Размер пустого списка в моей 64-разрядной Ubuntu составляет 64 байта. 
-import sys
 my_list.clear()
 sys.getsizeof(my_list)
 
